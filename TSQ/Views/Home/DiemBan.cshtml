@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "Điểm Bán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.494677970557!2d106.7148458!3d10.8018391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6c3d29d370b52a7e!2sHutech+University!5e0!3m2!1svi!2s!4v1523346097068"
+            width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        @*<script type="text/javascript" src=".http://maps.googleapis.com/maps/api/js?key=AIzaSyDzxH9RKWo4Os5r5j2TammLwjEnazxYHZo&signed_in=true&callback=initialize "></script>
+        <script type="text/javascript">
+            var gmap = new google.maps.LatLng(10.8018444,106.7126571);
+        var marker;
+        function initialize()
+        {
+            var mapProp = {
+                center:new google.maps.LatLng(10.8018444,106.7126571),
+                 zoom:16,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+
+            var map=new google.maps.Map(document.getElementById("googleMap")
+            ,mapProp);
+
+          var styles = [
+            {
+              featureType: 'road.arterial',
+              elementType: 'all',
+              stylers: [
+                { hue: '#fff' },
+                { saturation: 100 },
+                { lightness: -48 },
+                { visibility: 'on' }
+              ]
+            },{
+              featureType: 'road',
+              elementType: 'all',
+              stylers: [
+
+              ]
+            },
+            {
+                featureType: 'water',
+                elementType: 'geometry.fill',
+                stylers: [
+                    { color: '#adc9b8' }
+                ]
+            },{
+                featureType: 'landscape.natural',
+                elementType: 'all',
+                stylers: [
+                    { hue: '#809f80' },
+                    { lightness: -35 }
+                ]
+           ến xe
+          ];
+
+          var styledMapType = new google.maps.StyledMapType(styles);
+          map.mapTypes.set('Styled', styledMapType);
+
+          marker = new google.maps.Marker({
+            map:map,
+            draggable:true,
+            animation: google.maps.Animation.DROP,
+            position: gmap
+          });
+          google.maps.event.addListener(marker, 'click', toggleBounce);
+        }
+
+        function toggleBounce() {
+
+          if (marker.getAnimation() !== null) {
+            marker.setAnimation(null);
+          } else {
+            marker.setAnimation(google.maps.Animation.BOUNCE);
+          }
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>*@
+
+
+    <div class="col-md-7" style="color:white;margin-top:10px;text-align:center">
+        <img src="http://jmaverickdesign.com/wp-content/uploads/2012/04/T4Logo_iPad.png" width="30%">
+        <p style="margin-top:10px"><strong>Địa Chỉ</strong>: 475 A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, Hồ Chí Minh </pmargin-top:10px>
+        <p><strong>Số Điện Thoại</strong>: 0973008910</p>
+        <p><strong>Email</strong>:4T_LKĐT@gmail.com</p>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<p></p>
+<div class="modal-content">
+    <fb:comments href="http://tsqwatch.somee.com" colorscheme="light" numposts="5" width="100%" style="color:white"></fb:comments>
+</div>

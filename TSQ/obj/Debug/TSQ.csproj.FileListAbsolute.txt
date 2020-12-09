@@ -1,0 +1,776 @@
+D:\Web\TSQ\TSQ\bin\ApplicationInsights.config
+D:\Web\TSQ\TSQ\bin\roslyn\csc.exe
+D:\Web\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Web\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Web\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Web\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Web\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Web\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+D:\Web\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+D:\Web\TSQ\TSQ\bin\roslyn\vbc.exe
+D:\Web\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+D:\Web\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+D:\Web\TSQ\TSQ\bin\TSQ.dll.config
+D:\Web\TSQ\TSQ\bin\TSQ.dll
+D:\Web\TSQ\TSQ\bin\TSQ.pdb
+D:\Web\TSQ\TSQ\bin\Antlr3.Runtime.dll
+D:\Web\TSQ\TSQ\bin\EntityFramework.dll
+D:\Web\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+D:\Web\TSQ\TSQ\bin\Newtonsoft.Json.dll
+D:\Web\TSQ\TSQ\bin\Owin.dll
+D:\Web\TSQ\TSQ\bin\System.Web.Helpers.dll
+D:\Web\TSQ\TSQ\bin\System.Web.Mvc.dll
+D:\Web\TSQ\TSQ\bin\System.Web.Optimization.dll
+D:\Web\TSQ\TSQ\bin\System.Web.Razor.dll
+D:\Web\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+D:\Web\TSQ\TSQ\bin\System.Web.WebPages.dll
+D:\Web\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+D:\Web\TSQ\TSQ\bin\WebGrease.dll
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Web\TSQ\TSQ\bin\System.Web.Helpers.xml
+D:\Web\TSQ\TSQ\bin\System.Web.Mvc.xml
+D:\Web\TSQ\TSQ\bin\System.Web.Optimization.xml
+D:\Web\TSQ\TSQ\bin\System.Web.Razor.xml
+D:\Web\TSQ\TSQ\bin\System.Web.WebPages.xml
+D:\Web\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+D:\Web\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+D:\Web\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+D:\Web\TSQ\TSQ\bin\Newtonsoft.Json.xml
+D:\Web\TSQ\TSQ\bin\EntityFramework.xml
+D:\Web\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Web\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Web\TSQ\TSQ\obj\Debug\TSQ.csprojResolveAssemblyReference.cache
+D:\Web\TSQ\TSQ\obj\Debug\TSQ.dll
+D:\Web\TSQ\TSQ\obj\Debug\TSQ.pdb
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\ApplicationInsights.config
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\csc.exe
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\vbc.exe
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\TSQ.dll.config
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\TSQ.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\TSQ.pdb
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Antlr3.Runtime.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\EntityFramework.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Newtonsoft.Json.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Owin.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Helpers.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Mvc.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Optimization.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Razor.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.WebPages.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\WebGrease.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Helpers.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Mvc.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Optimization.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.Razor.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.WebPages.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Newtonsoft.Json.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\EntityFramework.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\obj\Debug\TSQ.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\obj\Debug\TSQ.pdb
+D:\TSQ\TSQ\bin\ApplicationInsights.config
+D:\TSQ\TSQ\bin\roslyn\csc.exe
+D:\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+D:\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+D:\TSQ\TSQ\bin\roslyn\vbc.exe
+D:\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+D:\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+D:\TSQ\TSQ\bin\TSQ.dll.config
+D:\TSQ\TSQ\bin\TSQ.dll
+D:\TSQ\TSQ\bin\TSQ.pdb
+D:\TSQ\TSQ\bin\Antlr3.Runtime.dll
+D:\TSQ\TSQ\bin\EntityFramework.dll
+D:\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+D:\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+D:\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+D:\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+D:\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+D:\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+D:\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+D:\TSQ\TSQ\bin\Newtonsoft.Json.dll
+D:\TSQ\TSQ\bin\Owin.dll
+D:\TSQ\TSQ\bin\System.Web.Helpers.dll
+D:\TSQ\TSQ\bin\System.Web.Mvc.dll
+D:\TSQ\TSQ\bin\System.Web.Optimization.dll
+D:\TSQ\TSQ\bin\System.Web.Razor.dll
+D:\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+D:\TSQ\TSQ\bin\System.Web.WebPages.dll
+D:\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+D:\TSQ\TSQ\bin\WebGrease.dll
+D:\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+D:\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+D:\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+D:\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+D:\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TSQ\TSQ\bin\System.Web.Helpers.xml
+D:\TSQ\TSQ\bin\System.Web.Mvc.xml
+D:\TSQ\TSQ\bin\System.Web.Optimization.xml
+D:\TSQ\TSQ\bin\System.Web.Razor.xml
+D:\TSQ\TSQ\bin\System.Web.WebPages.xml
+D:\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+D:\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+D:\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+D:\TSQ\TSQ\bin\Newtonsoft.Json.xml
+D:\TSQ\TSQ\bin\EntityFramework.xml
+D:\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+D:\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TSQ\TSQ\obj\Debug\TSQ.csprojResolveAssemblyReference.cache
+D:\TSQ\TSQ\obj\Debug\TSQ.dll
+D:\TSQ\TSQ\obj\Debug\TSQ.pdb
+D:\TSQ\TSQ\bin\PagedList.dll
+D:\TSQ\TSQ\bin\PagedList.Mvc.dll
+D:\TSQ\TSQ\bin\PagedList.xml
+D:\TSQ\TSQ\bin\PagedList.Mvc.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\PagedList.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\PagedList.Mvc.dll
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\PagedList.xml
+E:\Lập trình mạng full end\Bai tap về ASP.NET MVC5\TSQ-Web_ASP.NET\TSQ\TSQ\bin\PagedList.Mvc.xml
+F:\dacs\TSQ\TSQ\obj\Debug\TSQ.dll
+F:\dacs\TSQ\TSQ\obj\Debug\TSQ.pdb
+F:\dacs\TSQ\TSQ\bin\ApplicationInsights.config
+F:\dacs\TSQ\TSQ\bin\roslyn\csc.exe
+F:\dacs\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\dacs\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\dacs\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\dacs\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\dacs\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\dacs\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\dacs\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+F:\dacs\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+F:\dacs\TSQ\TSQ\bin\roslyn\vbc.exe
+F:\dacs\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+F:\dacs\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+F:\dacs\TSQ\TSQ\bin\TSQ.dll.config
+F:\dacs\TSQ\TSQ\bin\TSQ.dll
+F:\dacs\TSQ\TSQ\bin\TSQ.pdb
+F:\dacs\TSQ\TSQ\bin\Antlr3.Runtime.dll
+F:\dacs\TSQ\TSQ\bin\EntityFramework.dll
+F:\dacs\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+F:\dacs\TSQ\TSQ\bin\Newtonsoft.Json.dll
+F:\dacs\TSQ\TSQ\bin\Owin.dll
+F:\dacs\TSQ\TSQ\bin\PagedList.dll
+F:\dacs\TSQ\TSQ\bin\PagedList.Mvc.dll
+F:\dacs\TSQ\TSQ\bin\System.Web.Helpers.dll
+F:\dacs\TSQ\TSQ\bin\System.Web.Mvc.dll
+F:\dacs\TSQ\TSQ\bin\System.Web.Optimization.dll
+F:\dacs\TSQ\TSQ\bin\System.Web.Razor.dll
+F:\dacs\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+F:\dacs\TSQ\TSQ\bin\System.Web.WebPages.dll
+F:\dacs\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+F:\dacs\TSQ\TSQ\bin\WebGrease.dll
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\dacs\TSQ\TSQ\bin\PagedList.xml
+F:\dacs\TSQ\TSQ\bin\PagedList.Mvc.xml
+F:\dacs\TSQ\TSQ\bin\System.Web.Helpers.xml
+F:\dacs\TSQ\TSQ\bin\System.Web.Mvc.xml
+F:\dacs\TSQ\TSQ\bin\System.Web.Optimization.xml
+F:\dacs\TSQ\TSQ\bin\System.Web.Razor.xml
+F:\dacs\TSQ\TSQ\bin\System.Web.WebPages.xml
+F:\dacs\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+F:\dacs\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+F:\dacs\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+F:\dacs\TSQ\TSQ\bin\Newtonsoft.Json.xml
+F:\dacs\TSQ\TSQ\bin\EntityFramework.xml
+F:\dacs\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+F:\dacs\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\DACS\TSQ\TSQ\obj\Debug\TSQ.csprojResolveAssemblyReference.cache
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\ApplicationInsights.config
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\csc.exe
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\vbc.exe
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\TSQ.dll.config
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\TSQ.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\TSQ.pdb
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Owin.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\WebGrease.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csprojResolveAssemblyReference.cache
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.dll
+C:\Users\ThanhPhan\Desktop\Phú-Phan\vinh\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.pdb
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\ApplicationInsights.config
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\csc.exe
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\vbc.exe
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\TSQ.dll.config
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\TSQ.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\TSQ.pdb
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Owin.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\WebGrease.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csprojAssemblyReference.cache
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CoreCompileInputs.cache
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CopyComplete
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.dll
+C:\Users\Phu\Downloads\15DTH05-1511060149-WebsiteBanLinhKienDienTu\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.pdb
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\ApplicationInsights.config
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\csc.exe
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\vbc.exe
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.dll.config
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.pdb
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Owin.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\WebGrease.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csprojAssemblyReference.cache
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CoreCompileInputs.cache
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CopyComplete
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.dll
+F:\CodeMuon\BấnngTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.pdb
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\ApplicationInsights.config
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\csc.exe
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\vbc.exe
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.dll.config
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.pdb
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Owin.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\WebGrease.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csprojAssemblyReference.cache
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CoreCompileInputs.cache
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CopyComplete
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.dll
+F:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.pdb
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\ApplicationInsights.config
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\csc.exe
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Collections.Immutable.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\System.Reflection.Metadata.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\vbc.exe
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\roslyn\VBCSCompiler.exe.config
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.dll.config
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\TSQ.pdb
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Agent.Intercept.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Web.Infrastructure.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Owin.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\WebGrease.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.DependencyCollector.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.Web.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AI.WindowsServer.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.ApplicationInsights.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\PagedList.Mvc.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Helpers.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Mvc.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Optimization.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.Razor.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Deployment.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\System.Web.WebPages.Razor.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Antlr3.Runtime.pdb
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Newtonsoft.Json.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\EntityFramework.SqlServer.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Core.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Facebook.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Cookies.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.OAuth.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Google.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.Twitter.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CoreCompileInputs.cache
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.csproj.CopyComplete
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.dll
+D:\OneDrive - Minh Duc Junior High School\CodeMuon\SangTHG\WebsiteTMDT\Source code\DACN\TSQ\TSQ\obj\Debug\TSQ.pdb

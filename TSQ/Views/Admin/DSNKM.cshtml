@@ -1,0 +1,46 @@
+﻿@using TSQ.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<DSKhuyenMai>
+
+
+@{
+    ViewBag.Title = "Danh Sách Nhận Tin Khuyến Mãi";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+
+}
+
+
+<div class="col-md-10" style="color:white; text-align:center;overflow:auto">
+
+    <table class="table" id="List">
+        <tr>
+            <th>
+                Email
+            </th>
+            <th>
+                SDT
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.SDT)
+                </td>
+            </tr>
+        }
+    </table>
+    <span style="color:white">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+    <div class="col-md-12 MenuTrang ">
+        @Html.PagedListPager(Model, page => Url.Action("DSNKM", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>
+</div>

@@ -1,0 +1,110 @@
+﻿@using TSQ.Models;
+@using PagedList.Mvc;
+@model  PagedList.PagedList<CTHD>
+
+@{
+    ViewBag.Title = "Tình Trạng Giao Hàng";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<div class="col-md-9" style="color:white; text-align:center;overflow:auto">
+    <h2>TÌNH TRẠNG ĐƠN HÀNG</h2>
+    <table class="table" id="List">
+        <tr>
+            <th>
+                Đơn Hàng
+            </th>
+            <th>
+                CMND Khách Hàng
+            </th>
+            <th>
+                Địa Chỉ Giao Hàng
+            </th>
+            <th>
+                SDT Liên Hệ
+            </th>
+            <th>
+                Giao Hàng
+            </th>
+            <th>
+                Thanh Toán
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.iMaDonHang)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.sCMND)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.sDiaChiGiaoHang)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.sSDT)
+                </td>
+                @using (Html.BeginForm("GiaoHang", "Admin", new { @id = item.iMaDonHang }))
+                {
+                <td style="vertical-align:middle;text-align:center;width:180px">
+                    @if (item.bTinhTrangGiaoHang == false)
+                    {
+                        <div class="col-md-12">
+                            <label class="control-label">Chưa: </label> <input type="radio" name="TinhTrangGiaoHang" checked value="false" />
+                            <p></p>
+                            <label class="control-label">Đã Giao: </label> <input type="radio" name="TinhTrangGiaoHang" value="true" />
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-md-12">
+                            <label class="control-label">Chưa: </label> <input type="radio" name="TinhTrangGiaoHang" value="false" />                            
+                            <p></p>
+                            <label class="control-label">Đã Giao: </label> <input type="radio" name="TinhTrangGiaoHang" checked value="true" />
+                        </div>
+                    }
+                </td>
+
+
+                    <td style="vertical-align:middle;text-align:center;width:180px">
+                        @if (item.bThanhToan == false)
+                    {
+                            <div class="col-md-12">
+                                <label class="control-label">Chưa: </label> <input type="radio" name="ThanhToan" checked value="false" />
+                                <p></p>
+                                <label class="control-label">Đã Thanh Toán: </label> <input type="radio" name="ThanhToan" value="true" />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-md-12">
+                                <label class="control-label">Chưa: </label> <input type="radio" name="ThanhToan" value="false" />
+                                <p></p>
+                                <label class="control-label">Đã Thanh Toán: </label> <input type="radio" name="ThanhToan" checked value="true" />
+                            </div>
+                        }
+                    </td>
+
+
+                    <td style="border-left:2px solid;vertical-align:middle">
+                        <input type="submit" value="Cập Nhật" class="btn btn-default btn-sm" />
+                    </td>
+                }
+            </tr>
+        }
+
+    </table>
+    <span style="color:white;">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+    <div class="col-md-12 MenuTrang ">
+        @Html.PagedListPager(Model, page => Url.Action("GiaoHang", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>
+</div>

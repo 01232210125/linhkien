@@ -1,0 +1,52 @@
+﻿@model TSQ.Models.PHANQUYEN
+
+@{
+    ViewBag.Title = "Thay Đổi Thông Tin";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-md-9" style="color:white; text-align:center;overflow:auto">
+    <div class="modal-header">
+        <h4 class="modal-title">Thay Đổi Mật Khẩu</h4>
+    </div>
+    @using (Html.BeginForm("DoiPass", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        <div class="modal-body">
+            <div class="form-group row">
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Tài Khoản:</label>
+                    <div class="col-md-8">
+                        <input type="text" name="TaiKhoan" value="@Session["TaiKhoan"]" required /><span style="color:red">@ViewData["Loi2"]</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Mật Khẩu Hiện Tại:</label>
+                    <div class="col-md-8">
+                        <input type="password" name="passold" required /><span style="color:red">@ViewData["Loi2"]</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Mật Khẩu Mới:</label>
+                    <div class="col-md-8">
+                        <input type="password" name="passnew" required />
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Nhập Lại Mật Khẩu:</label>
+                    <div class="col-md-8">
+                        <input type="password" name="xnpass" required /><span style="color:red">@ViewData["Loi1"]</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="modal-footer">
+            <input type="submit" class="btn-primary btn-sm" id="searchbtn" value="Lưu" style="float:right" />
+        </div>
+    }
+</div>

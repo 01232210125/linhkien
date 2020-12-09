@@ -1,0 +1,28 @@
+﻿@model IEnumerable<TSQ.Models.SANPHAM>
+
+@foreach (var a in Model)
+{
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel panel-heading" style="background:#292929;color:white;height:70px">
+                @a.TenSP
+            </div>
+            <div class="panel-body">
+
+
+                <p style="text-align:center">
+                    <a href=@Url.Action("Detail",new { id= a.MaSP})><img src="~/img/@a.img" alt="hinh thumnail" width="160" height="100" /></a>
+                </p>
+                <p style="text-align:center; color:#C4302B; font-size:18px">
+                    Giá: <strong>@String.Format("{0:0,0}", a.GiaSP)</strong><strong> VNĐ</strong>
+                </p>
+            </div>
+            <div class="panel-footer clearfix">
+                <div class="pull-right">
+                    <a href=@Url.Action("ThemGioHang","GioHang", new { iMaSP= @a.MaSP,strURL=Request.Url.ToString() }) class="btn btn-primary" style="float:right;margin-bottom:10px">Thêm Vào Giỏ Hàng</a>
+                    @Html.ActionLink("Chi Tiết", "Detail", new { id = @a.MaSP }, new { @class = "btn btn-danger" })
+                </div>
+            </div>
+        </div>
+    </div>
+}

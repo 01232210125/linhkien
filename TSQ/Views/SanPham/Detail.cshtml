@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Chi Tiết Sản Phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="width:100%; background-color:white;border:1px solid black;border-radius:10px;" >
+    <div class="row" style="color:white; margin:0 auto">
+        <div class="col-md-5" style="border-right:1px solid black">
+            <img src="~/img/@Model.img" style="width:100%" />
+        </div>
+        <div class="col-md-7" style="background-color:white; height:100%;margin-top:10px">
+            <div style="background-color:#292929;border-top:2px solid #303030;border-radius:5px;height:70px;vertical-align:central">
+                <p style="color:#C4302B;font-weight:bold;font-size:20px; text-align:center;line-height:50px">@Model.TenSP</p>
+            </div>
+            <iframe srcdoc="@Model.Mota" style="border:none;width:100%;height:280px">
+            </iframe>
+            <p style="color:#C4302B;font-weight:bold;text-align:right;font-size:20px">@Model.GiaSP.ToString("#,##0").Replace(',', '.') VND</p>
+            
+            <a href=@Url.Action("ThemGioHang","GioHang", new { iMaSP= Model.MaSP,strURL= Request.Url.ToString() }) class="btn btn-danger" style="float:right;margin-bottom:10px">Thêm Vào Giỏ Hàng</a>
+        </div>
+    </div>
+    
+</div>
+<div>
+    <h3 style="text-align:center;color:#C4302B">Sản Phẩm Cùng Thương Hiệu</h3>
+    @Html.Action("SPCungTH", new { MaTH = Model.MaTH})
+</div>
+<div class="modal-content">
+    <fb:comments href="http://localhost:36860/Home/Index" colorscheme="light" numposts="5" width="1000"></fb:comments>
+</div>
+

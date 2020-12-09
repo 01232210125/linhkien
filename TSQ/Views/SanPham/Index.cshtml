@@ -1,0 +1,59 @@
+﻿@using PagedList.Mvc;
+@using TSQ.Models;
+
+@model PagedList.PagedList<SANPHAM>
+@{
+    ViewBag.Title = "Sản Phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    @using (Html.BeginForm("Loc", "SanPham", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        <input style="text-align:center; color:white; margin-bottom:10px; background-color:#292929; border:none;width:100px" value="Loc Theo Gia" readonly  />
+        <select name="loc" style="border-radius:5px; min-width:200px;margin-top:10px">
+            <option value="1"> tu thap den cao</option>
+            <option value="2">tu cao den thap</option>
+        </select>
+        <input type="submit" class="btn-primary btn-sm" style="padding-top:10px" value="Loc" />
+        <input name="id" type="hidden" value="@ViewBag.ML"/>
+    }
+
+</div>
+<h3 style="color:white">SẢN PHẨM BÁN CHẠY</h3>
+<div class="row">
+    @Html.Action("SPBanChay", new { id = ViewBag.ML })
+</div>
+<h3 style="color:white">Các Sản Phẩm Khác</h3>
+<div class="row"> 
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="panel panel-default" >
+                <div class="panel panel-heading" style="background:#292929;color:white;height:70px">
+                    @item.TenSP
+                </div>
+                <div class="panel-body">
+               
+                   
+                    <p style="text-align:center">
+                        <a href=@Url.Action("Detail",new { id= item.MaSP})><img src="~/img/@item.img" alt="hinh thumnail" width="260"height="180" /></a>
+                    </p>
+                    <p style="text-align:center; color:#C4302B; font-size:22px">
+                        Giá: <strong>@String.Format("{0:0,0}",item.GiaSP)</strong><strong> VNĐ</strong>
+                    </p>
+                </div>
+                <div class="panel-footer clearfix">
+                    <div class="pull-right">
+                        <a href=@Url.Action("ThemGioHang","GioHang", new { iMaSP= @item.MaSP,strURL=Request.Url.ToString() }) class="btn btn-primary" style="float:right;margin-bottom:10px">Thêm Vào Giỏ Hàng</a>
+                        @Html.ActionLink("Chi Tiết", "Detail", new { id = @item.MaSP }, new { @class = "btn btn-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<span style="color:white">trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount</span>
+<div >
+    @Html.PagedListPager(Model, page => Url.Action("Index","SanPham", new { page = page }));
+</div>

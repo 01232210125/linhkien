@@ -1,0 +1,48 @@
+﻿@model IEnumerable<TSQ.Models.NHASANXUAT>
+
+@{
+    ViewBag.Title = "NhaSanXuat";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<div class="form-horizontal col-md-9" style="color:#fff">
+    <p >
+        @Html.ActionLink("Thêm Nhà Sản Xuất", "ThemNSX")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Tên Nhà Sản Xuất
+            </th>
+            <th>
+                Địa Chỉ
+            </th>
+            <th>
+                Điện Thoại
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenNSX)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Diachi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DienThoai)
+                </td>
+
+                <td>
+                    <a class="btn btn-danger" href=@Url.Action("XoaNSX", "Admin", new { id = @item.MaNSX})>Xóa</a>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

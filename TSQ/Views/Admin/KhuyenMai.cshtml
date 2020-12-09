@@ -1,0 +1,36 @@
+﻿@model IEnumerable<TSQ.Models.KHUYENMAI>
+
+@{
+    ViewBag.Title = "KhuyenMai";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+
+<div class="form-horizontal col-md-6" style="color:#fff;padding-left:100px;text-align:center">
+    <table class="table">
+        <tr>
+            <th style="vertical-align:central;text-align:center">
+                Mã Khuyến Mãi
+            </th>
+            <th style="vertical-align:central;text-align:center">
+                Hình Thức Khuyến Mãi
+            </th>
+         
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="vertical-align:central">
+                    @Html.DisplayFor(modelItem => item.MaKM)
+                </td>
+                <td style="vertical-align:central">
+                    @Html.DisplayFor(modelItem => item.HinhThucKM)
+                </td>
+ 
+            </tr>
+        }
+
+    </table>
+</div>

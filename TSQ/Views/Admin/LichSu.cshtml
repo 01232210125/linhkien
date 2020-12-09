@@ -1,0 +1,131 @@
+﻿@using TSQ.Models
+@{
+    ViewBag.Title = "LichSu";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+@helper Truncate(string input, int length) { 
+        if(input.Length < length)
+         {
+            @input
+         }
+        else
+        {
+            @input.Substring(0,length)<text>...</text>
+        }
+    }
+
+<div class="col-md-9" style="padding:0">
+    <h3 style="text-align:center;color:White">Khách Hàng Đã Xóa</h3>
+    <div class="modal-body" style="height:150px;overflow:auto">
+        @foreach (var item in ViewBag.KH as List<KHACHHANG>)
+        {
+            <div class="modal-content" style="margin-bottom:5px;">
+
+                <div class="modal-header" style="padding:5px">
+                    @item.TenKH - CMND: @item.CMND - Ngày Sinh @item.Ngaysinh
+                    
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-footer" style="padding:5px;margin-top:0;">
+                    <a class="btn btn-danger" href=@Url.Action("KhoiPhucKH", "Admin", new { id = @item.CMND })>Khôi Phục</a>
+
+                </div>
+                <div id="clear"></div>
+            </div>
+        }
+        </div>
+ </div>
+<div class="col-md-3" style="padding:0">
+
+</div>
+    <div class="col-md-9" style="padding:0">
+        <h3 style="text-align:center;color:White">Sản Phẩm Đã Xóa</h3>
+        <div class="modal-body" style="height:300px;overflow:auto">
+            @foreach (var item in ViewBag.DH as List<SANPHAM>)
+            {
+                <div class="modal-content" style="margin-bottom:5px;">
+
+                    <div class="modal-header" style="padding:5px">
+                        @item.TenSP
+                        <input type="hidden" name="MaSP" value="@item.MaSP" />
+                    </div>
+                    <div class="col-md-3 col-sm-3" style="text-align:center;"><img src="~/img/@item.img" height="80" style="margin:5px" /></div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                        <label class="control-label">Đơn Giá: </label>
+                        <p>@String.Format("{0: 0,0}", item.GiaSP.ToString())</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                        <label class="control-label">Ngày Cập Nhật </label>
+                        <p>@item.Ngaycapnhat</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                        <label class="control-label">Mô Tả </label>
+                        <p>@Truncate(item.Mota,25)</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="modal-footer" style="padding:5px;margin-top:0;">
+                        <a class="btn btn-danger" href=@Url.Action("KhoiPhucSP", "Admin", new { id = @item.MaSP })>Khôi Phục</a>
+
+                    </div>
+                    <div id="clear"></div>
+                </div>
+            }
+        </div>
+    </div>
+<div class="col-md-3" style="padding:0">
+
+</div>
+    <div class="col-md-9" style="padding:0">
+        <h3 style="text-align:center;color:White">Thương Hiệu Đã Xóa</h3>
+        <div class="modal-body" style="height:150px;overflow:auto">
+            @foreach (var item in ViewBag.TH as List<THUONGHIEU>)
+            {
+                <div class="modal-content" style="margin-bottom:5px;">
+
+                    <div class="modal-header" style="padding:5px">
+                        @item.TenTH
+                        <input type="hidden" name="MaTH" value="@item.MaTH" />
+                    </div>
+                    <div class="col-md-3 col-sm-3" style="text-align:center;"><img src="~/img/@item.imgHeader" height="80" style="margin:5px" /></div>
+                    <div class="clearfix"></div>
+                    <div class="modal-footer" style="padding:5px;margin-top:0;">
+                        <a class="btn btn-danger" href=@Url.Action("KhoiPhucTH", "Admin", new { id = @item.MaTH })>Khôi Phục</a>
+
+                    </div>
+                    <div id="clear"></div>
+                </div>
+            }
+        </div>
+    </div>
+
+<div class="col-md-3" style="padding:0">
+
+</div>
+    <div class="col-md-9" style="padding:0">
+        <h3 style="text-align:center;color:White">Nhà Sản Xuất Đã Xóa</h3>
+        <div class="modal-body" style="height:150px;overflow:auto">
+            @foreach (var item in ViewBag.NSX as List<NHASANXUAT>)
+            {
+                <div class="modal-content" style="margin-bottom:5px;">
+
+                    <div class="modal-header" style="padding:5px">
+                        @item.TenNSX
+                    </div>
+                    <div class="col-md-3 col-sm-3" style="text-align:center;">
+                        <label class="control-label">Địa Chỉ </label> 
+                        @item.Diachi 
+                    </div>
+                    <div class="col-md-3 col-sm-3" style="text-align:center;"> 
+                        <label class="control-label">Điện Thoại </label>
+                        @item.DienThoai 
+                    </div>
+                <div class="clearfix"></div>
+                <div class="modal-footer" style="padding:5px;margin-top:0;">
+                    <a class="btn btn-danger" href=@Url.Action("KhoiPhucNSX", "Admin", new { id = @item.MaNSX })>Khôi Phục</a>
+
+                </div>
+                <div id="clear"></div>
+            </div>
+            }
+        </div>
+    </div>

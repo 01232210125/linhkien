@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Đăng Ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title">ĐĂNG KÝ TÀI KHOẢN MỚI</h4>
+    </div>
+    @using (Html.BeginForm("DangKy", "Home", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        <div class="modal-body">
+            <div class="form-group row">
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">CMND:</label>
+                    <div class="col-md-8">
+                        <input type="number" name="cmnd" min="0" required /> <span style="color:red">@ViewData["L1"]</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Họ Và Tên:</label>
+                    <div class="col-md-8">
+                        <input type="text" name="hoten" required />
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Giới Tính:</label>
+                    <div class="col-md-8">
+                        <label class="control-label">Nam</label> <input type="radio" name="gioitinh" checked value="nam" />
+                        <label class="control-label">Nữ</label> <input type="radio" name="gioitinh" value="nu" />
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Ngày Sinh:</label>
+                    <div class="col-md-8">
+                        <input type="date" name="ngaysinh" required /><span style="color:red">@ViewData["L2"]</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Email:</label>
+                    <div class="col-md-8">
+                        <input type="email" name="email" required />
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Password:</label>
+                    <div class="col-md-8">
+                        <input type="password" name="pass" required />
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div style="margin-bottom:10px">
+                    <label class="control-label col-md-4">Xác Nhận Password:</label>
+                    <div class="col-md-8">
+                        <input type="password" name="xnpass" required /><span style="color:red">@ViewData["L3"]</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="modal-footer">
+            <input type="submit" class="btn-primary btn-sm" id="searchbtn" value="Đăng Ký" style="float:right" />
+           
+        </div>
+    }
+</div>
+

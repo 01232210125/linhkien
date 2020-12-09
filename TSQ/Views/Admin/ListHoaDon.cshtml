@@ -1,0 +1,110 @@
+﻿@using TSQ.Models
+@using PagedList.Mvc
+@model  PagedList.PagedList<DONDATHANG>
+
+@{
+    ViewBag.Title = "Danh Sách Hóa Đơn";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-md-10" style="color:white; text-align:center;overflow:auto">
+@using (Html.BeginForm("ListHoaDon", "Admin"))
+{
+    <div>
+        @if (String.IsNullOrEmpty(ViewBag.TB))
+        {
+            <input type = "month" value = "" name = "ThangNam" style = "border-color:white;background:#292929;color:white;font-size:16px" />
+        }
+        else
+        {
+            <input type="month" value=@ViewBag.TB name="ThangNam"  style="border-color:white;background:#292929;color:white;font-size:16px" />
+            <p><strong>Tổng Tiền Tháng @ViewBag.Thang - @ViewBag.Nam la @ViewBag.TongTien VNĐ</strong></p>
+        }
+        <input type = "submit" class="btn btn-danger" value="Lọc" />
+    </div>
+}
+    <h3>Danh Sách Hóa Đơn tại 4T-LKĐT</h3>
+    <table class="table" id="List">
+        <tr>
+            <th>
+                Mã Hóa Đơn
+            </th>
+            <th>
+                CMND
+            </th>
+            <th>
+                Ngày Đặt
+            </th>
+            <th>
+                Ngày Giao
+            </th>
+            <th>
+                Thành Tiền
+            </th>
+            <th>
+                Tình Trạng Giao Hàng
+            </th>
+            <th>
+                Thanh toán
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.MaDonHang)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.CMND)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.Ngaydat)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.Ngaygiao)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.TongTien)
+                </td>
+                <td style="vertical-align:middle">
+                    @if (item.Tinhtranggiaohang == true)
+                    {
+                        <p>Đã Giao Hàng</p>
+
+                    }
+                    else
+                    {
+                        <p>Chưa Giao Hàng</p>
+                    }
+                </td>
+                <td style="vertical-align:middle">
+                    @if (item.Dathanhtoan == true)
+                    {
+                        <p>Đã Thanh Toán</p>
+
+                    }
+                    else
+                    {
+                        <p>Chưa Thanh Toán</p>
+                    }
+                </td>
+
+                <td style="border-left:2px solid;vertical-align:middle">
+                    @Html.ActionLink("Chi Tiết", "ChiTiet", new { id = item.MaDonHang, url = Request.Url.ToString() }) |
+                    @Html.ActionLink("Xóa", "XoaHoaDon", new { id = item.MaDonHang })
+                </td>
+            </tr>
+            }
+    </table>
+    <span style="color:white">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+        <div class="col-md-12 MenuTrang ">
+            @Html.PagedListPager(Model, page => Url.Action("ListHoaDon", new { page = page }))
+        </div>
+        <style>
+            .MenuTrang li {
+                display: inline;
+            }
+        </style>
+</div>

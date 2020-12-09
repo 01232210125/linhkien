@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "QuenPass";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title">Khôi Phục Mật Khẩu</h4>
+    </div>
+    <div class="modal-body">
+        @using (Html.BeginForm("QuenPass","Home",FormMethod.Post, new { @enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-md-4">Tài Khoản Đăng Nhập</label>
+                    <div class="col-md-8">
+                        <input type="number" name="CMND" required=""/>
+                    </div>
+                </div>
+             </div>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-md-4">Email Đã Đăng Ký:</label>
+                    <div class="col-md-8">
+                        <input type="email" name="email" required="" /><span style="color:red">@ViewData["Loi1"]</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group modal-footer">
+                <div><b style="color:red">(*)</b>Vui lòng Kiểm tra lại email để lấy mật khẩu mới.</div>
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Xác Nhận" class="btn-primary btn-sm" id="searchbtn" style="text-decoration:none;margin-right:5px" />
+                </div>
+            </div>
+        }
+    </div>
+    </div>
+</div>
+

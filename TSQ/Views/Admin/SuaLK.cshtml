@@ -1,0 +1,112 @@
+﻿@model TSQ.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Sửa Linh Kiện";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+<h2 style="color:#fff;text-align:center">Điều Chỉnh Thông Tin Linh Kiện</h2>
+
+@using (Html.BeginForm("SuaLK", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal col-md-9" style="color:#fff">
+        
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.MaSP)
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Tên Sản Phẩm:</label>
+            <div class="col-md-10">
+
+                <input type="text" name="TenSP" value=@Model.TenSP /> <span style="color:red ">@ViewBag.ThongBaoLoi</span>
+
+                @Html.ValidationMessageFor(model => model.TenSP, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Loại: </label>
+            <div class="col-md-10">
+                @Html.DropDownList("MaLoai")
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Giá: </label>
+            <div class="col-md-10">
+                <input type="number" name="GiaSP" value=@Model.GiaSP min="1000" step="1000" /><span><b> VNĐ </b></span>
+                @Html.ValidationMessageFor(model => model.GiaSP, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Số Lượng</label>
+            <div class="col-md-10">
+                <input type="number" name="Soluongton" value=@Model.Soluongton min="0" />
+                @Html.ValidationMessageFor(model => model.Soluongton, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Khuyến Mãi: </label>
+            <div class="col-md-10">
+                @Html.DropDownList("MaKM")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Thương Hiệu: </label>
+            <div class="col-md-10">
+                @Html.DropDownList("MaTH")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Nhà Sản Xuất: </label>
+            <div class="col-md-10">
+                @Html.DropDownList("MaNSX")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Hình Ảnh: </label>
+            <div class="col-md-10">
+                <input type="file" name="fileupload"/>
+             
+                @*Thong Bao Trung*@
+                <span style="color:red">@ViewBag.ThongBao</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Thời Gian Bảo Hành:</label>
+            <div class="col-md-10">
+                @Html.DropDownList("TGBH")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Mô Tả</label>
+            <div class="col-md-10">
+                <textarea name="MoTa">@Model.Mota</textarea>
+                @Html.ValidationMessageFor(model => model.Mota, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Về trang quản lý linh kiện", "ListLK")
+</div>

@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Thống Kê Doanh Thu";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<h2 style="color:#e96a0f;padding-top: 5px; padding-left: 10px; font-weight: bold;text-align:center">Thống Kê Doanh Thu Cửa Hàng 4T_LKĐT</h2>
+<canvas id="buyers" width="600" height="400"></canvas>
+
+
+    <script>
+// line chart data
+    var buyerData = {
+        labels: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"],
+    datasets : [
+        {
+            fillColor : "rgba(172,194,132,0.4)",
+            strokeColor : "#ACC26D",
+            pointColor : "#fff",
+            pointStrokeColor : "#9DB86D",
+            data : [@ViewBag.t1,@ViewBag.t2,@ViewBag.t3,@ViewBag.t4,@ViewBag.t5,@ViewBag.t6,@ViewBag.t7,@ViewBag.t8,@ViewBag.t9,@ViewBag.t10,@ViewBag.t11,@ViewBag.t12]
+        }
+    ]
+}
+    var buyers = document.getElementById('buyers').getContext('2d');
+    new Chart(buyers).Line(buyerData);
+</script>

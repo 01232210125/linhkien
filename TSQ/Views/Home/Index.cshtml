@@ -1,0 +1,36 @@
+﻿@model IEnumerable<TSQ.Models.LOAI_SP>
+
+
+@{
+    ViewBag.Title = "Trang Chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2 style="color:white; margin-bottom:10px;">4TSHOP</h2>
+<div class="row" id="Watch-Collection">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 col-sm-5">
+            <div class="img-container" style="background-image: url(@item.imgContent)" ;>
+                <a href="/SanPham/Index/@item.MaLoai" target="_self">
+                    <div class="overlay">
+                        <div class="text">@item.TenLoai</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130698991-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130698991-1');
+</script>
+
+

@@ -1,0 +1,102 @@
+﻿@model TSQ.Models.DH
+
+@{
+    ViewBag.Title = "Xóa Linh Kiện";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Bạn Muốn Xóa Sản Phẩm Này Phải Không???</h3>
+<div class="col-md-9" style="color:white">
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Loai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Loai)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaSP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaycapnhat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaycapnhat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soluongton)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NSX)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NSX)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.img)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.img)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HTBH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HTBH)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model=>model.MaSP)
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

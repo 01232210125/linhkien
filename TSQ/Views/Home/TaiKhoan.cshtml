@@ -1,0 +1,9 @@
+﻿@if (Model == null)
+{
+    <a class="btn-primary btn-sm" href=@Url.Action("Login","Home") id="searchbtn" style="text-decoration:none;">Đăng Nhập</a>
+    <a class="btn-primary btn-sm" href=@Url.Action("DangKy","Home") id="searchbtn" style="text-decoration:none;">Đăng Ký</a>
+}
+else{
+    <span style="color:white">Xin Chào <a href=@Url.Action("SuaKH","Home") style="text-decoration:none">@Model.TenKH</a></span>
+    <a class="btn-primary btn-sm" href=@Url.Action("Logout","Home") id="searchbtn" style="text-decoration:none;">Thoát</a>
+}

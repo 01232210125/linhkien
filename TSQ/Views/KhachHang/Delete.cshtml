@@ -1,0 +1,59 @@
+﻿@model TSQ.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Xóa Khách Hàng";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<div class="col-md-9" style="color:white">
+    <h3>Bạn Muốn Xóa Khách Hàng Này Phải Không???</h3>
+    <div>
+        <
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.CMND)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CMND)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.TenKH)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TenKH)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.GioiTinh)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GioiTinh)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Ngaysinh)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Ngaysinh)
+            </dd>
+
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(model => model.CMND)
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Trở Về Danh Sách Khách Hàng", "ListKH")
+            </div>
+        }
+    </div>
+</div>

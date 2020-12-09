@@ -1,0 +1,145 @@
+﻿
+@using TSQ.Models
+@model List<GIOHANG>
+@{
+    ViewBag.Title = "Giỏ Hàng Của Bạn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="modal-content">
+        <div class="col-md-8" style="padding:0">
+            <div class="modal-header" >
+                CHI TIẾT GIỎ HÀNG
+            </div>
+            <div class="modal-body" style="height:250px;overflow:auto">
+                @foreach (var item in Model)
+                {
+                    using (Html.BeginForm("CapNhat","GioHang"))
+                    {
+                        <div class="modal-content" style="margin-bottom:5px;">
+                            <div class="modal-header" style="padding:5px">
+                                @item.sTenSP
+                                <input type="hidden" name="MaSP" value="@item.iMaSP"/>
+                                <a class="close" style="color:white" href=@Url.Action("XoaSP", "GioHang", new { id = @item.iMaSP })>&times;</a>
+                            </div>
+                            <div class="col-md-3 col-sm-3" style="text-align:center;"><img src="~/img/@item.simg" height="80" style="margin:5px" /></div>
+                            <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                                <label class="control-label">Số Lượng: </label><br />
+                                <input type="number" name="SoLuong" min="1" value=@item.iSoLuong style="border:none;width:50px;text-align:center" />
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                                <label class="control-label">Đơn Giá: </label>
+                                <p>@String.Format("{0: 0,0}", item.fDonGia.ToString())</p>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                                <label class="control-label">Thành Tiền: </label>
+                                <p>@String.Format("{0: 0,0}", item.fThanhTien.ToString())</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="modal-footer" style="padding:5px;margin-top:0;">
+                                <a class="btn btn-danger" href=@Url.Action("Detail", "SanPham", new { id = @item.iMaSP })>Chi Tiết</a>
+                                <input type="submit" class="btn btn-primary" value="Cập Nhật" />
+                            </div>
+                            <div id="clear"></div>
+                        </div>    
+                    }
+                }
+            </div>
+        </div>
+       
+@using (Html.BeginForm("XacNhanDonHang","GioHang"))
+{
+        <div class="col-md-4" style="padding-right:0;padding-left:1px">
+            <div>
+                <div class="modal-header">
+                    TỔNG TIỀN
+                </div>
+                <div class="modal-body" style="height:100px;padding:10px 0 0 0;border-left:1px solid black">
+                    @if (Session["TaiKhoan"] != null)
+                    {
+                        <h3 style="font-weight:bold;">Giảm Giá: 5%</h3>
+                        <h3 style="text-align:center;font-weight:bold;">@String.Format("{0: 0,0}", ViewBag.TongTien) VNĐ</h3>
+                        <input type="hidden" disabled name="TongTien" value=@ViewBag.TongTien />
+                    }
+                    else
+                    {
+                        
+                        <h3 style="text-align:center;font-weight:bold;">@String.Format("{0: 0,0}", ViewBag.TongTien) VNĐ</h3>
+                        <input type="hidden" disabled name="TongTien" value=@ViewBag.TongTien />
+                    }
+
+                </div>
+                <div class="modal-header">
+
+                </div>
+                <div class="modal-body" style="height:150px;text-align:center;padding:10px 0 0 0;border-left:1px solid black">
+                    <a class="btn btn-danger" href=@Url.Action("XoaGioHang","GioHang")>Hủy Giỏ Hàng</a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div id="clear"></div>
+        //KHÁCH HÀNG NHẬP THÔNG TIN
+        <div class="modal-header">
+            THÔNG TIN ĐẶT HÀNG
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label class="control-label col-md-4">CMND:</label>
+                
+                <input class="col-md-8" type="number" name="CMND" value="@ViewBag.Bien" required /><span style="color:red">@ViewData["L1"]</span>
+                <div class="clearfix"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-4">Địa Chỉ Giao Hàng:</label>
+                <input class="col-md-8" type="text" name="DCGiaoHang" required />
+                <div class="clearfix"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-4">Email Liên Hệ</label>
+                <input class="col-md-8" type="email" name="Email" required />
+                <div class="clearfix"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-4">Số Điện Thoại:</label>
+                <input class="col-md-8" type="number" name="SDT"  required />
+                <div class="clearfix"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-4">Ngày Giao:</label>
+                <input class="col-md-8" type="date" name="NgayGiao" min=@string.Format("{0:yyyy}",DateTime.Now)-@string.Format("{0:MM}",DateTime.Now)-@string.Format("{0:dd}",DateTime.Today.AddDays(1)) required />
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="CacHinhThucThanhToan" style="margin-left:20px">
+            <div><b>+ Quý khách vui lòng chọn một trong hai hình thức dưới đây để thanh toán hóa đơn của mình</b></div>
+            <br />
+            <div style="padding-left:15px">
+                <input id="rbOnepay" type="radio" name="rbHinhThucThanhToan" checked="checked" value="Onepay" />
+                <lable for="rbOnepay"><b>Thanh toán bằng thẻ ATM</b></lable>
+                <div class="paymentInfo" style="padding-top:5px;padding-left:10px">
+                    <script type="text/javascript" src="http://202.9.84.88/documents/payment/logoscript.jsp?logos=at&lang=vi"></script>
+                    <div class="cb"><!----></div>
+                </div>
+            </div>
+            <br />
+            <div style="padding-top:5px;padding-left:15px">
+                <input id="rbCod" type="radio" name="rbHinhThucThanhToan" value="ChuyenKhoan" />
+                <lable for="rbCod"><b>Thanh toán chuyển khoản</b></lable>
+                <div class="paymentInfo" style="padding-top:5px;padding-left:10px">
+                    Tên Tài Khoản: Cửa Hàng 4T-LKĐT <br />
+                    Số Tài Khoản:1511060858887<br />
+                    Ngân hàng VietComBank chi nhánh Q3
+                </div>
+
+            </div>
+        </div>
+            <div class="modal-footer" style="text-align:center">
+
+                <input type="submit" class="btn btn-success" id="searchbtn" value="Xác Nhận Đặt Hàng" />
+                
+            </div>
+    }
+    <div id="clear"></div>
+</div>
+<div class="clearfix"></div>

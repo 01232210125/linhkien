@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Đăng Nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+        <div class="modal-header" style="padding:10px">
+            <h4 class="modal-title">ĐĂNG NHẬP</h4>
+        </div>
+
+        @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+            {
+            <div class="modal-body" style="padding: 10px;">
+                <div style="color:red;text-align:center;margin-bottom:10px">@ViewData["Loi1"]</div>
+                <div>
+                    <label class="control-label col-md-4" style="margin-bottom:10px">Tên Tài Khoản (CMND):</label>
+                    <input class="col-md-8" type="text" name="TaiKhoan" required style="margin-bottom:10px" />
+                    <div class="clearfix"></div>
+                </div>
+                <div>
+                    <label class="control-label col-md-4">Password:</label>
+                    <input class="col-md-8" type="password" name="pass" required />
+                    <div class="clearfix"></div>
+                </div>
+                
+            </div>
+                <div class="modal-footer" style="padding: 0 10px 10px 0">
+                    <button class="btn-primary btn-sm" id="searchbtn"> Đăng Nhập</button>
+                    <a class="btn-primary btn-sm" href=@Url.Action("QuenPass","Home") id="searchbtn" style="text-decoration:none;float:left;margin-left:10px">Quên Mật Khẩu</a>
+                    <a class="btn-primary btn-sm" href=@Url.Action("DangKy","Home") id="searchbtn" style="text-decoration:none;">Đăng Ký</a>
+                </div>
+        }
+    </div>
+
+</div>
+

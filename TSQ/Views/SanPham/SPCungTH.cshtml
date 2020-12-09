@@ -1,0 +1,36 @@
+﻿@using PagedList.Mvc;
+@using TSQ.Models;
+
+@model PagedList.PagedList<SANPHAM>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-3 col-md-3  col-sm-6 col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel panel-heading" style="background:#292929;color:white;height:70px" >
+                    @item.TenSP
+                </div>
+                <div class="panel-body">
+
+
+                    <p style="text-align:center">
+                        <a href=@Url.Action("Detail",new { id= item.MaSP})><img src="~/img/@item.img" alt="hinh thumnail" width="160" height="100" /></a>
+                    </p>
+                    <p style="text-align:center; color:#C4302B; font-size:18px">
+                        Giá: <strong>@String.Format("{0:0,0}", item.GiaSP)</strong><strong> VNĐ</strong>
+                    </p>
+                </div>
+                <div class="panel-footer clearfix">
+                    <div class="pull-right">
+                        <a href=@Url.Action("ThemGioHang","GioHang", new { iMaSP= @item.MaSP,strURL=Request.Url.ToString() }) class="btn btn-primary" style="float:right;margin-bottom:10px">Thêm Vào Giỏ Hàng</a>
+                        @Html.ActionLink("Chi Tiết", "Detail", new { id = @item.MaSP }, new { @class = "btn btn-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<span style="color:white">trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+<div>
+    @Html.PagedListPager(Model, page => Url.Action("Detail", "SanPham", new { page = page, id= ViewData["MaSP"] }));
+</div>

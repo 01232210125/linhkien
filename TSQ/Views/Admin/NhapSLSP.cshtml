@@ -1,0 +1,72 @@
+﻿@using TSQ.Models;
+@using PagedList.Mvc;
+@model  PagedList.PagedList<DH>
+
+@{
+    ViewBag.Title = "Nhập Hàng";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<div class="col-md-9" style="color:white; text-align:center;overflow:auto">
+    <h2>Nhập Số Lượng Sản Phẩm</h2>
+    <table class="table" id="List">
+        <tr>
+            <th>
+                Mã Sản Phẩm
+            </th>
+            <th>
+                Tên Sản Phẩm
+            </th>
+            <th>
+                Hình Ảnh
+            </th>
+            <th>
+                Số Lượng Tồn
+            </th>
+            <th>
+                Số Lượng Cập Nhật
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.MaSP)
+                </td>
+                <td style="vertical-align:middle">
+                    @Html.DisplayFor(modelItem => item.TenSP)
+                </td>
+                <td style="vertical-align:middle">
+                    <img src="~/img/@item.img" width="50" style="padding-top:10px;" />
+                </td>
+
+                @using (Html.BeginForm("CapNhatSLSP", "Admin", new { @id=item.MaSP }))
+                {
+                    <td style="vertical-align:middle">
+                        @Html.DisplayFor(modelItem => item.Soluongton)
+                    </td>
+                    <td style="vertical-align:middle">
+                        <input type="number" value="0" name="SoLuong" min="0" />
+                    </td>
+
+                    <td style="border-left:2px solid;vertical-align:middle">
+                        <input type="submit" value="Cập Nhật" class="btn btn-default" />
+                    </td>
+                }
+            </tr>
+        }
+
+    </table>
+    <span style="color:white;">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+    <div class="col-md-12 MenuTrang ">
+        @Html.PagedListPager(Model, page => Url.Action("NhapSLSP", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>
+</div>

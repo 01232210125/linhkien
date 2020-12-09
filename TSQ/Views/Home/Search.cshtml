@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Tìm Kiếm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using PagedList.Mvc;
+@using TSQ.Models;
+
+@model PagedList.PagedList<SANPHAM>
+<h3 style="color:white">Kết Quả Tìm Kiếm Cho: @ViewBag.x </h3>
+@if (Model == null)
+{
+    <h3 style="color:white">@ViewBag.search</h3>
+}
+else
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-md-4 col-sm-6" >
+                <div class="panel panel-default">
+                    <div class="panel panel-heading" style="background:#292929;color:white">
+                        @item.TenSP
+                    </div>
+                    <div class="panel-body" style="height:330px">
+
+
+                        <p style="text-align:center">
+                            <a href=@Url.Action("Detail","SanPham",new { id= item.MaSP})><img src="~/img/@item.img" alt="hinh thumnail" width="200" /></a>
+                        </p>
+                        <p style="text-align:center; color:#C4302B; font-size:28px">
+                            Giá: <strong>@String.Format("{0:0,0}",item.GiaSP)</strong><strong> VNĐ</strong>
+                        </p>
+                    </div>
+                    <div class="panel-footer clearfix">
+                        <div class="pull-right">
+                            <a href=@Url.Action("ThemGioHang","GioHang", new { iMaSP= @item.MaSP, strURL= Url.Action("Search", "Home", new { search = ViewBag.x , page= Model.PageNumber}) })  class="btn btn-primary">Thêm vào giỏ hàng</a>
+                            @Html.ActionLink("Chi Tiết", "Detail","SanPham", new { id = @item.MaSP }, new { @class = "btn btn-danger" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <span style="color:white">trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+    <div>
+        @Html.PagedListPager(Model, page => Url.Action("Search", "Home", new { page = page,search=ViewBag.x}));
+    </div>
+}

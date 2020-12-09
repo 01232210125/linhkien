@@ -1,0 +1,42 @@
+﻿@model IEnumerable<TSQ.Models.CTHD>
+
+@{
+    ViewBag.Title = "Chi Tiết Đơn Hàng";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-md-8" style="padding:0">
+    <div class="modal-header" style="color:white;text-align:center">
+            <p>CHI TIẾT ĐƠN HÀNG SỐ @ViewBag.Ma </p> 
+    </div>
+
+        <div class="modal-body" style="height:500px;overflow:auto">
+        @foreach (var item in Model)
+        {
+            <div class="modal-content" style="margin-bottom:5px;">
+                <div class="modal-header" style="padding:5px">
+                    @item.sTenSP
+                </div>
+                <div class="col-md-3 col-sm-3" style="text-align:center;"><img src="~/img/@item.simg" height="80" style="margin:5px" /></div>
+                <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                    <label class="control-label">Số Lượng: </label><br />
+                    <input type="number" name="SoLuong" min="1" value=@item.iSoLuong style="border:none;width:50px;text-align:center" />
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                    <label class="control-label">Đơn Giá: </label>
+                    <p>@String.Format("{0: 0,0}", item.fDonGia.ToString())</p>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6" style="text-align:center;height:80px;margin:5px 0px">
+                    <label class="control-label">Thành Tiền: </label>
+                    <p>@String.Format("{0: 0,0}", item.fThanhTien.ToString())</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-footer" style="padding:5px;margin-top:0;">
+                </div>
+                <div id="clear"></div>
+            </div>
+
+        }
+            <a class="btn btn-danger" href=@ViewData["Url"] >Quay Về</a>
+        </div>
+</div>

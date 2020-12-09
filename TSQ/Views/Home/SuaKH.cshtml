@@ -1,0 +1,86 @@
+﻿@model TSQ.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Thay Đổi Thông Tin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title">ĐĂNG KÝ</h4>
+    </div>
+    <div class="modal-body">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>KHACHHANG</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.CMND)
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Họ Và Tên:</label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.TenKH, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.TenKH, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Giới Tính:</label>
+                    @if (Model.GioiTinh == false)
+                {
+                        <div class="col-md-8">
+                            <label class="control-label">Nam</label> <input type="radio" name="GioiTinh" checked value="false" />
+                            <label class="control-label">Nữ</label> <input type="radio" name="GioiTinh" value="true" />
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-md-8">
+                            <label class="control-label">Nam</label> <input type="radio" name="GioiTinh" value="false" />
+                            <label class="control-label">Nữ</label> <input type="radio" name="GioiTinh" checked value="true" />
+                        </div>
+                    }
+
+
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Ngày Sinh:</label>@*"@Model.Ngaysinh.Year-@Model.Ngaysinh.Month-@Model.Ngaysinh.Day"*@
+                    <div class="col-md-10">
+                        <input type="date" name="Ngaysinh" class="form-control" value=@string.Format("{0:yyyy}", Model.Ngaysinh)-@string.Format("{0:MM}", Model.Ngaysinh)-@string.Format("{0:dd}", Model.Ngaysinh) />
+                        @Html.ValidationMessageFor(model => model.Ngaysinh, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Email:</label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                   
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.HiddenFor(model => model.TrangThai)
+                            @Html.ValidationMessageFor(model => model.TrangThai, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group modal-footer">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn-primary btn-sm" id="searchbtn" style="text-decoration:none;margin-right:5px" />
+                    <a class="btn-primary btn-sm" href=@Url.Action("DoiPass","Home") id="searchbtn" style="text-decoration:none;float:right">Thay Đổi Mật Khẩu</a>
+                          
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

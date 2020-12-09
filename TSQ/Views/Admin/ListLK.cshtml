@@ -1,0 +1,105 @@
+﻿@using TSQ.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<DH>
+
+
+@{
+    ViewBag.Title = "Danh Sách Sản Phẩm";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    
+}
+
+
+<div class="col-md-10" style="color:white; text-align:center;overflow:auto">
+    <p>
+        @Html.ActionLink("Thêm Linh Kiện", "ThemLK","Admin")
+    </p>
+    <table class="table" id="List" >
+        <tr >
+            <th>
+                Tên Sản Phẩm
+            </th>
+            <th>
+                Loại
+            </th>
+            <th>
+                Gía Sản Phẩm
+            </th>
+
+            <th>
+                Ngày Cập Nhật
+            </th>
+            <th>
+                Số Lượng
+            </th>
+            <th>
+                Khuyến Mãi
+            </th>
+            <th>
+                Thương Hiệu
+            </th>
+            <th>
+                Nhà Sản Xuất
+            </th>
+            <th>
+                Hình Ảnh
+            </th>
+            <th>
+                Bảo Hành
+            </th>
+        
+            <th></th>
+        </tr>
+        
+        @foreach (var item in Model)
+         {
+        <tr >
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.TenSP)
+            </td>
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.Loai)
+            </td>
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.GiaSP)
+            </td>
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+            </td>
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.Soluongton)
+            </td>
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.KM)
+            </td>
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.TH)
+            </td>
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.NSX)
+            </td>
+            <td style="vertical-align:middle">
+                <img src="~/img/@item.img" width="50" style="padding-top:10px;"/>
+            </td>
+
+            <td style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.HTBH)
+            </td>
+          
+            <td style="border-left:2px solid;vertical-align:middle">
+                @Html.ActionLink("Sửa", "SuaLK", new { id = item.MaSP }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.MaSP })
+            </td>
+        </tr>
+        }
+    </table>
+    <span style="color:white">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+    <div class="col-md-12 MenuTrang ">
+        @Html.PagedListPager(Model, page => Url.Action("ListLK", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>
+</div>
